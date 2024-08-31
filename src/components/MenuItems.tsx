@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 type Props = {
   menuItem: MenuItem;
+  addToCart: () => void;
 };
 
 const MenuItems = ({ menuItem, addToCart }: Props) => {
