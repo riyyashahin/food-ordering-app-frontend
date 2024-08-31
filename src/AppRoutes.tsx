@@ -40,12 +40,19 @@ const AppRoutes = () => {
       />
 
       <Route element={<ProtectedRoute />}>
-        
-      <Route
+        <Route
           path="/order-status"
           element={
             <Layout>
               <OrderStatusPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/user-profile"
+          element={
+            <Layout>
+              <UserProfilePage />
             </Layout>
           }
         />
